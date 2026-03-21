@@ -94,13 +94,13 @@ Perfect for developers, system administrators, security researchers, and anyone 
 
 ```bash
 # Download the script
-wget https://raw.githubusercontent.com/BENNIE047/WordHunt-X/main/wordfinder.sh
+wget https://raw.githubusercontent.com/BENNIE047/WordHunt-X/main/wordfinder
 
 # Make it executable
-chmod +x wordfinder.sh
+chmod +x wordfinder
 
 # Run it
-./wordfinder.sh
+./wordfinder
 ```
 
 <div align="center">
@@ -113,7 +113,7 @@ For global access from anywhere:
 
 ```bash
 # Move to system binaries
-sudo mv wordfinder.sh /usr/local/bin/wordfinder
+sudo mv wordfinder /usr/local/bin/wordfinder
 
 # Now use it from anywhere
 wordfinder
